@@ -1,3 +1,10 @@
+/**
+ * Time Complexity:
+ * The list of size N is divided into a max of logN parts,
+ * and the merging of all sublists into a single list takes O(N) time,
+ * the worst case run time of this algorithm is O(NlogN)
+ */
+
 const unsortedArray = [10, -1, 2, 5, 0, 6, 4, -5];
 
 // compare elements and merge them
